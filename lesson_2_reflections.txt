@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When a new repository is initialized, .git file gets created and it stores details of the repository. You can add files, track the versions et al of the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Staging area acts as an intermediate cache / repository to stage the modifications done on local working directory before we commit the changes to repository. Using git status and reflecting on the changes in staging area we can compare the files in staging area with the version in repository before we commit changes.
+
