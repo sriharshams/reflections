@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 	We can use staging are to manage all the logical changes required for the feature. If we feel any changes that are not part of logical change, then we can use git reset HEAD <file> to revert back the changed file.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches are requiered during experimental features or the features that might not make into the release and part of future release. Creating branches will also help maitaining seperate releases.
