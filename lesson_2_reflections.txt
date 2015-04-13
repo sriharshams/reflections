@@ -16,3 +16,6 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	Merging 2 branches together will result inot 1 moreged barnch having all the commits arranged chronological on command git log. We represent in diagram the way we wanted is mainly to check the reachability of the commits and this also helps in merging branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Git's automatic merging resolves lot of auto-merges. Also identifies conflicsts and adds branch code details for reference. Merge conflict resolution manually is the best way to identify and retain the required feature and merge conflicts properly.
