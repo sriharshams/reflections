@@ -12,3 +12,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	We can collaborate using other version control systems, but having Git / GitHub it makes it so easier and all the content available as long as I am online, th web interface of github makes it easier to find informationa and collaborate. Without gitHub, it would requrie both team members co-locate or get on a call or use the version control systme to understand and merge changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When we have a bug in the code that we want fix, its good to use a branch rather than updating code in a stable master version. Bennifit is a clear isolation of any instability that might creep in a stable master build.
