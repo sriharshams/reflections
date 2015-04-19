@@ -9,3 +9,6 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	Having the last known state of the remote branch will help us to understand & track the changes happened in remote brnach, once I fetch I will be able to use the commits to validate and merge with remote branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	We can collaborate using other version control systems, but having Git / GitHub it makes it so easier and all the content available as long as I am online, th web interface of github makes it easier to find informationa and collaborate. Without gitHub, it would requrie both team members co-locate or get on a call or use the version control systme to understand and merge changes.
